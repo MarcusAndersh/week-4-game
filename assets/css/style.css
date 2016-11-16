@@ -1,0 +1,35 @@
+body{
+	background:#00FFFF;
+}
+
+.jumbotron{
+	text-align: center;
+	border: solid 5px black;
+}
+
+.col-lg-5{
+	background: #FF0000;
+	text-align: center;
+	border: solid 5px black;
+	height:200px;
+	font-size: 30px;
+}
+
+.col-lg-2{
+	text-align: center;
+}
+
+#pieces{
+	border: solid 5px black;
+	text-align: center;
+	margin-top:20px;
+	padding:20px;
+	background: #FFFFFF;
+	
+}
+
+.gems{
+	width: 100px; 
+	height: 100px;
+	padding: 10px;
+}

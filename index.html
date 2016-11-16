@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon Collector!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+
+</head>
+<body>
+  
+<div class="container">
+  <div class="jumbotron">
+    <h1><font color="blue">Pokémon Catcher!</font></h1>
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four Pokémon below. By clicking on a Pokémon you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number,you lose the game if your total score goes above the random number.</p>
+    <p>The value of each Pokémon is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the values of each Pokémon.</p>
+
+  </div>
+
+<div class="row"> 
+
+  <div class="col-lg-5">
+    <h1 >Goal</h1>
+    <br>
+    <div id="goal" class="game"> </div>
+  </div>
+<br>
+  <div class="col-lg-2">
+    <p id="wins">Wins: 0</p>
+    <p id="losses">Losses: 0</p>
+    <div class="outcome" class="game"></div>
+  </div>
+<br>
+  <div class="col-lg-5">
+    <h1> Score you have</h1>
+    <div id="score" class="game"></div>
+  </div>
+
+</div>
+
+<div class="row" id="pieces"> 
+  <img src="assets/images/Pikachu.png" alt="Gem 1" class="gems" id="gem1">
+  <img src="assets/images/Charmander.png" alt="Gem 2" class="gems" id="gem2">
+  <img src="assets/images/Squirtle.png" alt="Gem 3" class="gems" id="gem3">
+  <img src="assets/images/Bulbasaur.png" alt="Gem 4" class="gems" id="gem4">
+  
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
